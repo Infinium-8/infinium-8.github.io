@@ -1,0 +1,56 @@
+html {
+    background: #365099;
+    background: radial-gradient(circle at 50% 2%, #b6ff00 0%, #0e8f06 15%, #0b4902 39%);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%
+}
+
+
+.logo-item {
+    transform: rotate(45deg);
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 90% 1%;
+    box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.07);
+}
+
+    .logo-item:nth-child(1) {
+        transform: rotate(0deg) translateX(90px) translateY(-90px);
+    }
+
+    .logo-item:nth-child(2) {
+        transform: rotate(45deg) translateX(90px) translateY(-90px);
+    }
+
+    .logo-item:nth-child(3) {
+        transform: rotate(90deg) translateX(90px) translateY(-90px);
+    }
+
+    .logo-item:nth-child(4) {
+        transform: rotate(135deg) translateX(90px) translateY(-90px);
+    }
+
+    .logo-item:nth-child(5) {
+        transform: rotate(180deg) translateX(90px) translateY(-90px);
+    }
+
+    .logo-item:nth-child(6) {
+        transform: rotate(225deg) translateX(90px) translateY(-90px);
+    }
+
+    .logo-item:nth-child(7) {
+        transform: rotate(270deg) translateX(90px) translateY(-90px);
+    }
+
+    .logo-item:nth-child(8) {
+        transform: rotate(315deg) translateX(90px) translateY(-90px);
+    }

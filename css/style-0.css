@@ -1,0 +1,363 @@
+body {
+
+  background: black;
+  /*
+  linear-gradient(to right, #b24592, #f15f79)
+  overflow: hidden;
+  */
+
+}
+
+#inf {
+  position: absolute;
+  display: block;
+  top:0;
+  bottom:690px;
+  right:280px;
+  left:0;
+  margin:auto;
+  width:0px;
+  height:0px;
+  opacity:1;
+  font-size: 80px;
+color: white;
+text-shadow: 5 5 25px 25px rgba(255, 255, 255, 0.8);
+}
+
+/* круг-чекбос */
+.menu-toggler {
+  position: absolute;
+  display: block;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  margin:auto;
+  width:46px;
+  height:46px;
+  opacity:0;
+  cursor:pointer;
+  background-color: white;
+  border-radius: 23px;
+  z-index: 35;
+}
+.menu-toggler:hover {
+  box-shadow: 0 0 20px 28px rgba(255, 255, 255, 0.8);
+  z-index: 36;
+}
+/* x
+.menu-toggler:hover + label,
+.menu-toggler:hover + label:before,
+.menu-toggler:hover + label:after,{
+  background: green;
+  box-shadow: 0 0 10px 18px rgba(255, 255, 255, 0.8);
+
+}
+/* Прозрачность круга после нажатия */
+.menu-toggler:checked  {
+  /*background: transparent;*/
+  background-color: black;
+  opacity: 0;
+  z-index: 36;
+  box-shadow: 0 0 20px 28px rgba(255, 255, 255, 0.8);
+}
+/* x
+.menu-toggler:checked + label:before{
+  top:0;
+  width:60px;
+  transform-origin: 50% 50%;
+}
+.menu-toggler:checked + label:after{
+  top:0;
+  width:60px;
+  transform-origin: -50% -50%;
+}
+/* x
+.menu-toggler:checked + label:before {
+  transform: rotate(45deg) translateY(-15px) translateX(-15px);
+}
+/* x
+.menu-toggler:checked + label:after {
+  transform: rotate(-45deg);
+}
+/*   Прозрачность лепистков
+.menu-toggler:checked  {
+opacity: 0.8;
+}
+/*    Расположение лепистков */
+.menu-toggler:checked ~ ul .menu-item:nth-child(1) {
+  transform: rotate(0deg) translate(-130px);
+  z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(1):hover {
+  z-index: 33;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(2) {
+  transform: rotate(45deg) translateX(-130px);
+  z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(2):hover {
+  z-index: 33;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(3) {
+  transform: rotate(90deg) translateX(-130px);
+  z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(3):hover {
+  z-index: 33;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(4) {
+  transform: rotate(135deg) translateX(-130px);
+  z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(4):hover {
+  z-index: 33;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(5) {
+  transform: rotate(180deg) translateX(-130px);
+  z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(5):hover {
+  z-index: 33;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(6) {
+  transform: rotate(225deg) translateX(-130px);
+  z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(6):hover {
+  z-index: 33;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(7) {
+  transform: rotate(270deg) translateX(-130px);
+  z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(7):hover {
+  z-index: 33;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(8) {
+  transform: rotate(315deg) translateX(-130px);
+  z-index: 30;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(8):hover {
+  z-index: 33;
+}
+
+/* x */
+.menu-toggler:checked ~ ul .menu-item a {
+  pointer-events:auto;
+
+}
+/* Круг */
+.menu-toggler + label {
+  width: 46px;
+  height: 46px;
+  display: block;
+  z-index: 33;
+  border-radius: 24px;
+  background: rgba(230, 239, 250, 0.5);
+  border:3px solid white;
+  transition: transform 2.5s top 2.5s;
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation: animate-shadow 1s ease-in infinite;
+}
+/*
+.menu-toggler + label:hover {
+  box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.8);
+}
+.menu-toggler:hover {
+  box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.8);
+}
+
+.menu-toggler + label:before{
+  width: 46px;
+  height: 46px;
+  display: block;
+  z-index: 42;
+  border-radius: 23px;
+  background: rgba(255, 255, 255, 0.7);
+  transition: transform 3.5s top 3.5s;
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+
+}
+
+.menu-toggler + label:after {
+  width: 10px;
+  height: 10px;
+  display: block;
+  z-index: 43;
+  border-radius: 23px;
+  background: rgba(255, 255, 255, 0.7);
+  transition: transform 0.5s top 0.5s;
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  box-shadow: 0 0 25px 29px rgba(255, 255, 255, 0.8);
+}
+*/
+
+
+
+
+/*Свойства лепистков*/
+.menu-item:nth-child(1) a {
+  transform: rotate(45deg);
+  background:radial-gradient(
+    30% 30% ,
+    white ,
+    #1729B0 ) right/200% 200%;
+  */
+  opacity: 0.6;
+}
+.menu-item:nth-child(1) a:hover {
+  opacity: 0.8;
+}
+.menu-item:nth-child(2) a {
+  transform: rotate(45deg);
+  background-color: #009999;
+  opacity: 0.6;
+}
+.menu-item:nth-child(2) a:hover {
+  opacity: 0.8;
+}
+.menu-item:nth-child(3) a {
+  transform: rotate(45deg);
+  background-color: #00CC00;
+  opacity: 0.6;
+}
+.menu-item:nth-child(3) a:hover {
+  opacity: 0.8;
+}
+.menu-item:nth-child(4) a {
+  transform: rotate(45deg);
+  background-color: #FFD300;
+  opacity: 0.6;
+}
+.menu-item:nth-child(4) a:hover {
+  opacity: 0.8;
+}
+.menu-item:nth-child(5) a {
+  transform: rotate(45deg);
+  background-color: #FF9200;
+  opacity: 0.6;
+}
+.menu-item:nth-child(5) a:hover {
+  opacity: 0.8;
+}
+.menu-item:nth-child(6) a {
+  transform: rotate(45deg);
+  background-color: #FF0000;
+  opacity: 0.6;
+}
+.menu-item:nth-child(6) a:hover {
+  opacity: 0.8;
+}
+.menu-item:nth-child(7) a {
+  transform: rotate(45deg);
+  background-color: black;
+  opacity: 0.6;
+}
+.menu-item:nth-child(7) a:hover {
+  opacity: 0.8;
+}
+.menu-item:nth-child(8) a {
+  transform: rotate(45deg);
+  background-color: #9C02A7;
+  opacity: 0.6;
+}
+.menu-item:nth-child(8) a:hover {
+  opacity: 0.8;
+}
+/* лепистки */
+.menu-item {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  transition: 2.3s;
+}
+/* лепистки */
+.menu-item a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  line-height: 80px;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 95% 1%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  pointer-events: none;
+  transition: 0.3s;
+  box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.5);
+z-index: 1;
+}
+/* при наведении мыши по леписткам */
+.menu-item a:hover {
+  box-shadow: 0 0 10px 13px rgba(255, 255, 255, 0.8);
+  color: white;
+
+
+  /*background: rgba(255, 255, 255, 0.3);*/
+  /*font-size: 44.44px*/
+}
+/*
+html {
+  --s:67px; // shape size
+  --m:24px;  / line thickness
+
+  --v1: #fff 119.5deg, #0000 120.5deg;
+  --v2: #000  119.5deg, #0000 120.5deg;
+  background:
+   conic-gradient(at var(--m)              calc(var(--s)*0.5777), transparent 270deg, #000 0deg),
+    conic-gradient(at calc(100% - var(--m)) calc(var(--s)*0.5777), #000 90deg,  transparent 0deg),
+
+    conic-gradient(from -60deg at 50% calc(var(--s)*0.8662)             , var(--v1)),
+    conic-gradient(from -60deg at 50% calc(var(--s)*0.8662 + 2*var(--m)), var(--v2)),
+    conic-gradient(from 120deg at 50% calc(var(--s)*1.4435 + 3*var(--m)), var(--v1)),
+    conic-gradient(from 120deg at 50% calc(var(--s)*1.4435 + 4*var(--m)), var(--v2)),
+
+    linear-gradient(90deg, #fff calc(50% - var(--m)),#000 0 calc(50% + var(--m)), #fff 0);
+  background-size: calc(var(--s) + 2*var(--m)) calc(var(--s)*1.732 + 3*var(--m));
+  mix-blend-mode:lighten;
+}
+*/
+html {
+
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:linear-gradient(
+    90deg,
+    black,
+    #FF0000,
+    #FF9200,
+    #FFD300,
+    #00CC00,
+    #009999,
+    #1729B0,
+    #9C02A7,
+    black) left/1000% 100%;
+  animation:f 60s infinite alternate linear;
+}
+
+@keyframes f {
+  50% {background-position:right}
+}
+@keyframes animate-shadow {
+  50% {box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.8);
+  }
