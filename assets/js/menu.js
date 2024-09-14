@@ -1,6 +1,5 @@
-
 var _field_Menu = document.getElementById("field_Menu");
-var _blue       = document.getElementById("blue_explorer");
+var _blue       = document.getElementById("blue");
 var _liteblue   = document.getElementById("liteblue");
 var _green      = document.getElementById("green");
 var _yellow     = document.getElementById("yellow");
@@ -14,7 +13,7 @@ var _menu_item = document.getElementsByClassName("menu-item");
 var _menu_toggler = document.getElementById("menu-toggler");
 
 _blue.onmousemove= function(){    
-    _field_Menu.innerText = 'explorer';
+    _field_Menu.innerText = _blue.innerText;
 }
 _blue.onmouseleave = function(){    
     _field_Menu.innerText = "";
