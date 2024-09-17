@@ -270,6 +270,7 @@ margin:auto;
   margin-top: -7.0rem;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
   /*
   transition: 100s;

@@ -7,6 +7,55 @@ body{
     background: radial-gradient(ellipse at bottom, #1b2735 5%, #090a0f 95%);
 }
 
+.main-info{
+    color: #FFFFFF;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.btn-main-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-started-lite{
+    color: #FFFFFF;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.get-started-lite-title {
+    display: flex;
+    justify-content: center;
+}
+
+.get-started-lite .row{
+    padding-bottom: 2rem;
+}
+
+.get-started-lite-item {
+    align-content: center;
+}
+
+.get-started-lite img {
+    max-width: 100%;
+    max-height: 15rem;
+}
+
 .infochain{
     color: aliceblue;
     font-weight: bold;
@@ -32,7 +81,7 @@ body{
 }
 
 .footer-logo{
- max-width: 80%;
+    max-width: 80%;
 }
 
 .footer-description{
@@ -49,6 +98,93 @@ body{
     color: #FFFFFF;
     font-weight: bold;
     border-top: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+.row-reverse-flex{
+    flex-direction: row-reverse;
+}
+
+.image-full{
+    max-width: 100%;
+}
+
+.image-center {
+    text-align: center;
+}
+
+a.btn-primary-top {
+    background-color: #999999;
+    border: 2px solid #707070;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    height: 2.9rem;
+    line-height: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+a.btn-fixed {
+    background: none;
+    border: 2px solid #707070;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+    -moz-transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+    -o-transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+    transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+    display: inline-block;
+    height: 2.9rem;
+    line-height: 3rem;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.07), 0 7px 17px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.07), 0 7px 17px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.07), 0 7px 17px 0 rgba(0,0,0,.1);
+}
+
+a.btn-fixed:hover {
+    background: #999999;
+    border: 2px solid #707070;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+    -moz-transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+    -o-transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+    transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+    display: inline-block;
+    height: 2.9rem;
+    line-height: 3rem;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.07), 0 7px 17px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.07), 0 7px 17px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.07), 0 7px 17px 0 rgba(0,0,0,.1);
+}
+
+span.underlined::after {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: .3125rem;
+    border-radius: 1.875rem;
+    background: radial-gradient(199.87% 141.42% at 0% 0%, #16d1d6 0%, #274cff 100%), #d9d9d9;
 }
 
 @media (min-width: 1200px) {
