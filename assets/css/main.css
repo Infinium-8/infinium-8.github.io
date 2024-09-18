@@ -187,6 +187,44 @@ span.underlined::after {
     background: radial-gradient(199.87% 141.42% at 0% 0%, #16d1d6 0%, #274cff 100%), #d9d9d9;
 }
 
+@media (max-width: 590px) {
+    html{
+        margin-right: -10px;
+    }
+
+    #inf{
+        font-size: 55px !important; 
+    }
+
+    .navbar-brand {
+ 
+    }
+
+    .main-info{
+        margin-left: 0%;
+        margin-right: 0%;  
+    }
+
+    .main-info .row {
+        flex-direction: column-reverse;
+    }
+
+    .btn-main-info{
+        flex-direction: column;  
+    }
+
+    .btn-primary-top {
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    } 
+    .get-started-lite{
+        margin-left: 0%;
+        margin-right: 0%;  
+    }   
+}
+
 @media (min-width: 1200px) {
     .nav-item{
         font-size: 1.25rem;
