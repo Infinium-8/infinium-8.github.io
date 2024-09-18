@@ -65,23 +65,31 @@ margin:auto;
   right: 0;
 }
 
+/****************************************************/
+/* изначальное положение лепистка */
 .menu-item:nth-child(1) a{
   transform: rotate(45deg);
   background-color: transparent;
   border-color: transparent;
   opacity: 0.7;
 }
+/* движение , раскрытие */
 .menu-toggler:checked ~ ul .menu-item:nth-child(1) a{
   transform: rotate(45deg) translateX(-90px) translateY(90px);
   z-index: 31;
   border-color: white;
-  background-color: #1729B0;	
+  background-color: #1729B0;	/* blue */
 }
-li #blue:hover{
+/* перенос на передний план */
+.menu-item:nth-child(1):hover{
   z-index: 33;
+}
+/*  когда развернут при наведении мыши становится ярче */
+.menu-item:nth-child(1) a:hover {
   opacity: 0.9;
 }
 
+/* изначальное положение лепистка */
 .menu-item:nth-child(2) a {
 	transform: rotate(45deg);
 	background-color: transparent;
@@ -89,20 +97,29 @@ li #blue:hover{
 	opacity: 0.7;
   margin-top: -11.2rem;
 }
+/* движение , раскрытие */
 .menu-toggler:checked ~ ul .menu-item:nth-child(2) a {
 	transform: rotate(90deg) translateX(-90px) translateY(90px);
 	z-index: 31;
-	background-color: #009999; 
+	background-color: #009999; /* liteblue */
 }
-li #liteblue:hover{
+/* перенос на передний план */
+.menu-toggler:checked ~ ul .menu-item:nth-child(2):hover {
   z-index: 33;
+}
+/*  когда развернут при наведении мыши становится ярче */
+.menu-item:nth-child(2) a:hover {
   opacity: 0.9;
 }
 
+
 .menu-toggler:checked ~ ul .menu-item:nth-child(3) a{
   transform: rotate(135deg) translateX(-90px) translateY(90px);
-  background-color: #00CC00;	
+  background-color: #00CC00;	/* green*/
   z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(3):hover {
+  z-index: 33;
 }
 .menu-item:nth-child(3) a {
 	transform: rotate(45deg);
@@ -111,15 +128,18 @@ li #liteblue:hover{
 	opacity: 0.7;
   margin-top: -11.1rem;
 }
-li #green:hover{
-  z-index: 33;
+.menu-item:nth-child(3) a:hover {
   opacity: 0.9;
 }
 
+
 .menu-toggler:checked ~ ul .menu-item:nth-child(4) a{
   transform: rotate(180deg) translateX(-90px) translateY(90px);
-  background-color: #FFD300;	
+  background-color: #FFD300;	/* yellow */
   z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(4):hover {
+  z-index: 33;
 }
 .menu-item:nth-child(4) a {
 	transform: rotate(45deg);
@@ -128,15 +148,18 @@ li #green:hover{
 	opacity: 0.7;
   margin-top: -11.3rem;
 }
-li #yellow:hover{
-  z-index: 33;
+.menu-item:nth-child(4) a:hover {
   opacity: 0.9;
 }
 
+
 .menu-toggler:checked ~ ul .menu-item:nth-child(5) a{
   transform: rotate(225deg) translateX(-90px) translateY(90px);
-  background-color: #FF9200;	
+  background-color: #FF9200;	/* orange */
   z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(5):hover {
+  z-index: 33;
 }
 .menu-item:nth-child(5) a {
 	transform: rotate(45deg);
@@ -145,15 +168,18 @@ li #yellow:hover{
 	opacity: 0.7;
   margin-top: -11.3rem;
 }
-li #orange:hover{
-  z-index: 33;
+.menu-item:nth-child(5) a:hover {
   opacity: 0.9;
 }
+
 
 .menu-toggler:checked ~ ul .menu-item:nth-child(6) a{
   transform: rotate(270deg) translateX(-90px) translateY(90px);
   background-color: #FF0000;	/* red */
   z-index: 31;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(6):hover {
+  z-index: 33;
 }
 .menu-item:nth-child(6) a {
 	transform: rotate(45deg);
@@ -162,16 +188,22 @@ li #orange:hover{
 	opacity: 0.7;
   margin-top: -11.3rem;
 }
-li #red:hover{
-  z-index: 33;
+.menu-item:nth-child(6) a:hover {
   opacity: 0.9;
 }
+
 
 .menu-toggler:checked ~ ul .menu-item:nth-child(7) a{
   transform: rotate(315deg) translateX(-90px) translateY(90px);
   background-color: black;
   z-index: 31;
 }
+
+.menu-toggler:checked ~ ul .menu-item:nth-child(7):hover {
+  z-index: 33;
+}
+
+
 .menu-item:nth-child(7) a {
 	transform: rotate(45deg);
 	background-color: transparent;
@@ -179,15 +211,18 @@ li #red:hover{
 	opacity: 0.7;
   margin-top: -11.3rem;
 }
-li #black:hover{
-  z-index: 33;
+
+.menu-item:nth-child(7) a:hover {
   opacity: 0.9;
 }
 
 .menu-toggler:checked ~ ul .menu-item:nth-child(8) a{
   transform: rotate(360deg) translateX(-90px) translateY(90px);
   background-color: #9C02A7;
-  z-index: 31;
+  z-index: 30;
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(8):hover {
+  z-index: 33;
 }
 .menu-item:nth-child(8) a {
 	transform: rotate(45deg);
@@ -196,16 +231,19 @@ li #black:hover{
 	opacity: 0.7;
   margin-top: -11.3rem;
 }
-li #viollet:hover{
-  z-index: 33;
+.menu-item:nth-child(8) a:hover {
   opacity: 0.9;
 }
 /****************************************************/
 
+/* эфект движенния по леписстку. цвет текста, курсора */
 .menu-toggler:checked ~ ul .menu-item a {
   pointer-events:auto;
+
+  /*color: red;*/
 }
 
+ /* отображение круга с анимацией */
 .menu-toggler + label {
   width: 46px;
   height: 46px;
@@ -220,6 +258,12 @@ li #viollet:hover{
   animation: animate-shadow 1s ease-in infinite;
 }
 
+
+
+/*Свойства лепистков*/
+
+/* создание лепистков из обычного списка */
+
 .menu-item {
   width: 180px;
   height: 180px;
@@ -228,7 +272,10 @@ li #viollet:hover{
   margin-right: auto;
   display: block;
 }
-
+  /*
+  transition: 100s;
+*/
+/* лепистки */
 .menu-item a {
   background-color: transparent;
   color: transparent;
@@ -249,7 +296,9 @@ li #viollet:hover{
   z-index: 1;
 }
 
+/* при наведении мыши по леписткам */
 .menu-item a:hover {
+
   border: 50px;
   border-color: white;
   box-shadow: inset -15px 15px 3px 15px rgba(255, 255, 255, 0.9),
@@ -258,6 +307,7 @@ li #viollet:hover{
   0 0 15px 30px rgba(255, 255, 255, 0.1),
   0 0 15px 40px rgba(255, 255, 255, 0.1),
   0 0 15px 50px rgba(255, 255, 255, 0.05);
+ 
 }
 
 .menu-item img {
@@ -269,8 +319,8 @@ li #viollet:hover{
   left: 35px;
   right: 0;
   z-index: 1;
+  
 }
-
 
 #blue img {  transform: rotate(-45deg);}
 #black img {  transform: rotate(45deg);}

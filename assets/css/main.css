@@ -9,8 +9,6 @@ body{
 
 .main-info{
     color: #FFFFFF;
-    margin-left: 10%;
-    margin-right: 10%;
     background: repeating-linear-gradient(0deg, #000000, #410256 100%);
     position: relative;
     border: 1px solid #323232;
@@ -27,8 +25,6 @@ body{
 
 .get-started-lite{
     color: #FFFFFF;
-    margin-left: 10%;
-    margin-right: 10%;
     background: repeating-linear-gradient(0deg, #000000, #410256 100%);
     position: relative;
     border: 1px solid #323232;
@@ -225,13 +221,58 @@ span.underlined::after {
     }   
 }
 
+@media (max-width: 991px) {
+    html{
+        margin-right: -10px;
+    }
+
+    #inf{
+        font-size: 55px !important; 
+    }
+
+    .navbar-brand {
+ 
+    }
+
+    .main-info{
+        margin-left: 0%;
+        margin-right: 0%;  
+    }
+
+    .main-info .row {
+        flex-direction: column-reverse;
+    }
+
+    .btn-primary-top {
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    } 
+    .get-started-lite{
+        margin-left: 0%;
+        margin-right: 0%;  
+    }   
+}
+
 @media (min-width: 1200px) {
+    .nav-item{
+        font-size: 1.25rem;
+        font-weight: bolder;
+        text-align: center;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    
+    }   
+}
+
+@media (min-width: 1590px) {
     .nav-item{
         font-size: 1.25rem;
         font-weight: bolder;
         text-align: center;
         padding-left: 1.3rem;
         padding-right: 1.3rem;
-    
     }
+
 }
