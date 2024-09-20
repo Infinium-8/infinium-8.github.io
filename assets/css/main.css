@@ -2,6 +2,10 @@ body{
     background: radial-gradient(ellipse at bottom, #1b2735 10%, #090a0f 90%);
 }
 
+[id] {
+    scroll-margin-top: 4em;
+ }
+
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
     background: radial-gradient(ellipse at bottom, #1b2735 5%, #090a0f 95%);
@@ -228,10 +232,6 @@ span.underlined::after {
 
     #inf{
         font-size: 55px !important; 
-    }
-
-    .navbar-brand {
- 
     }
 
     .main-info{
