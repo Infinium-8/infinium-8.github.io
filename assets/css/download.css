@@ -72,6 +72,24 @@ ul.download-main-menu-nav {
     border: 1px solid #000000;
 }
 
+#mobile-and-light-wallet{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .04) 100%);
+    border: 1px solid #000000; 
+}
+
+#import-blockchain{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .04) 100%);
+    border: 1px solid #000000;
+}
+
 .infinium-wallet-photo{
     text-align: center;
     padding-bottom: 3rem;
@@ -98,6 +116,18 @@ ul.download-main-menu-nav {
     justify-content: center;
     align-items: center;
 }
+
+.target-import-blockchain{
+    display: flex;
+    justify-items: center;
+    padding: 3rem;
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .bottom-wallet-align{
     margin-top: 1.25rem;
     width: 100%;
