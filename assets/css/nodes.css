@@ -1,0 +1,47 @@
+.nodes {
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.nodes-title{
+    color: white;
+    text-align: center;
+}
+
+.container.table-nodes{
+    overflow-x: auto;
+}
+
+.nodes-table {
+    min-width: 100%;
+    text-align: center;
+    color: white;
+    border-color: #525252;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.nodes-table td {
+    border-color: #525252;
+    border-style: solid;
+    border-width: 1px;
+    font-size: large;
+    font-weight: 600;
+    background: #d3d3d30f;
+}
+
+.nodes-table th {
+    border-color: #525252;
+    border-style: solid;
+    border-width: 1px;
+    background: orange;
+    font-size: large;
+    font-style: oblique;
+    font-weight: 700;
+}
