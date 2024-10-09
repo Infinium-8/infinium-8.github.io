@@ -196,10 +196,6 @@ span.underlined::after {
         font-size: 55px !important; 
     }
 
-    .navbar-brand {
- 
-    }
-
     .main-info{
         margin-left: 0%;
         margin-right: 0%;  
@@ -255,14 +251,21 @@ span.underlined::after {
     }   
 }
 
+@media (min-width: 992px) {
+    .collapse.navbar-collapse{
+        justify-content: flex-end;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
 @media (min-width: 1200px) {
     .nav-item{
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-weight: bolder;
-        text-align: center;
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
-    
+        text-align: center;    
     }   
 }
 

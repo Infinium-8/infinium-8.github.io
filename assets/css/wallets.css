@@ -91,7 +91,7 @@
     max-width: 100%;
 }
 
-.row.wallets {
+.row.wallets-download {
     justify-content: center;
 }
 .target-wallet-align{
@@ -152,9 +152,32 @@
 }
 
 @media (max-width: 480px) {
+
+    .wallets{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    #infinium-gui-wallet {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    #infinium-cli-wallet {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    #mobile-and-light-wallet {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
     .target-wallet-align{
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 0%;
+        padding-right: 0%;
     }
     .bottom-wallet-align{
         margin-top: 1.25rem;
