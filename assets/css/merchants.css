@@ -1,0 +1,26 @@
+.merchants{
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.merchant{
+    padding: 1rem;
+}
+
+.card-merchant {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    flex-direction: column;
+    min-width: 100%;
+    min-height: 10rem;
+    background: #000000;
+    border-radius: 3%;
+}

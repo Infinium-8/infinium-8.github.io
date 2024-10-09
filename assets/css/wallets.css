@@ -1,4 +1,4 @@
-.download{
+.wallets{
     color: #FFFFFF;
     background: repeating-linear-gradient(0deg, #000000, #410256 100%);
     position: relative;
@@ -8,11 +8,11 @@
     padding-left: 8%;
     padding-right: 8%;
 }
-.download-title{
+.wallets-title{
     display: flex;
     justify-content: center;
 }
-.download-main-menu{
+.wallets-main-menu{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,12 +24,12 @@
     border: 2px solid #21082a;
 }
 
-.download-main-menu a {
+.wallets-main-menu a {
     height: 4.7rem;
     align-items: center;
 }
 
-.download-main-item{
+.wallets-main-item{
     display: flex;
     background: #410256;
     color: #FFFFFF;
@@ -43,7 +43,7 @@
     justify-content: center;
 }
 
-.download-main-item:hover{
+.wallets-main-item:hover{
     display: flex;
     background: #563202;
     color: #FFFFFF;
@@ -82,15 +82,6 @@
     border: 1px solid #000000; 
 }
 
-#import-blockchain{
-    margin-top: 3rem;
-    padding-top: 3rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
-    background: linear-gradient(135deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .04) 100%);
-    border: 1px solid #000000;
-}
-
 .infinium-wallet-photo{
     text-align: center;
     padding-bottom: 3rem;
@@ -100,7 +91,7 @@
     max-width: 100%;
 }
 
-.row.downloads {
+.row.wallets {
     justify-content: center;
 }
 .target-wallet-align{
@@ -117,17 +108,6 @@
     justify-content: center;
     align-items: center;
 }
-
-.target-import-blockchain{
-    display: flex;
-    justify-items: center;
-    padding: 3rem;
-    border-radius: 10%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .bottom-wallet-align{
     margin-top: 1.25rem;
@@ -189,4 +169,3 @@
         align-items: center;
     } 
 }
-
