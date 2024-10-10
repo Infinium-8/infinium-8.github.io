@@ -21,7 +21,7 @@
     margin: 20px 0;
     border-radius: 6px;
     align-self: center;
-    width: 50vw;
+    width: 60vw;
   }
   .timeline__event:nth-child(2n+1) {
     flex-direction: row-reverse;
@@ -36,50 +36,50 @@
     content: "";
     width: 2px;
     height: 100%;
-    background: #f6a4ec;
+    background: #04ff19;
     position: absolute;
     top: 0%;
     left: 50%;
     right: auto;
     z-index: -1;
     transform: translateX(-50%);
-    -webkit-animation: fillTop 2s forwards 4s ease-in-out;
-            animation: fillTop 2s forwards 4s ease-in-out;
+    -webkit-animation: fillTop 1s forwards 2s ease-in-out;
+            animation: fillTop 1s forwards 2s ease-in-out;
   }
   .timeline__event:nth-child(2n+1) .timeline__event__icon:after {
     content: "";
     width: 100%;
     height: 2px;
-    background: #f6a4ec;
+    background: #04ff19;
     position: absolute;
     right: 0;
     z-index: -1;
     top: 50%;
     left: auto;
     transform: translateY(-50%);
-    -webkit-animation: fillLeft 2s forwards 4s ease-in-out;
-            animation: fillLeft 2s forwards 4s ease-in-out;
+    -webkit-animation: fillLeft 1s forwards 2s ease-in-out;
+            animation: fillLeft 1s forwards 2s ease-in-out;
   }
   .timeline__event__title {
     font-size: 1.2rem;
     line-height: 1.4;
     text-transform: uppercase;
     font-weight: 600;
-    color: #9251ac;
+    color: #34f346;
     letter-spacing: 1.5px;
   }
   .timeline__event__content {
     padding: 20px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
     background: #fff;
-    width: calc(40vw - 84px);
+    width: calc(60vw - 84px);
     border-radius: 0 6px 6px 0;
   }
   .timeline__event__date {
-    color: #f6a4ec;
+    color: #d5ffd9;
     font-size: 1.5rem;
     font-weight: 600;
-    background: #9251ac;
+    background: #04ff19;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,11 +91,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #9251ac;
+    color: #d5ffd9;
     padding: 20px;
     align-self: center;
     margin: 0 20px;
-    background: #f6a4ec;
+    background: #04ff19;
     border-radius: 100%;
     width: 40px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
@@ -110,70 +110,170 @@
     content: "";
     width: 2px;
     height: 100%;
-    background: #f6a4ec;
+    background: #04ff19;
     position: absolute;
     top: 0%;
     z-index: -1;
     left: 50%;
     transform: translateX(-50%);
-    -webkit-animation: fillTop 2s forwards 4s ease-in-out;
-            animation: fillTop 2s forwards 4s ease-in-out;
+    -webkit-animation: fillTop 1s forwards 2s ease-in-out;
+            animation: fillTop 1s forwards 2s ease-in-out;
   }
   .timeline__event__icon:after {
     content: "";
     width: 100%;
     height: 2px;
-    background: #f6a4ec;
+    background: #04ff19;
     position: absolute;
     left: 0%;
     z-index: -1;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-animation: fillLeftOdd 2s forwards 4s ease-in-out;
-            animation: fillLeftOdd 2s forwards 4s ease-in-out;
+    -webkit-animation: fillLeftOdd 1s forwards 2s ease-in-out;
+            animation: fillLeftOdd 1s forwards 2s ease-in-out;
   }
   .timeline__event__description {
     flex-basis: 100%;
   }
   .timeline__event--type2:after {
-    background: #555ac0;
+    background: #b9b059;
   }
   .timeline__event--type2 .timeline__event__date {
-    color: #87bbfe;
-    background: #555ac0;
+    color: #fff597;
+    background: #b9b059;
   }
   .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:after {
-    background: #87bbfe;
+    background: #b9b059;
   }
   .timeline__event--type2 .timeline__event__icon {
-    background: #87bbfe;
-    color: #555ac0;
+    background: #b9b059;
+    color: #b9b059;
   }
   .timeline__event--type2 .timeline__event__icon:before, .timeline__event--type2 .timeline__event__icon:after {
-    background: #87bbfe;
+    background: #b9b059;
   }
   .timeline__event--type2 .timeline__event__title {
-    color: #555ac0;
+    color: #b9ac31;
   }
   .timeline__event--type3:after {
-    background: #24b47e;
+    background: #ff9900;
   }
   .timeline__event--type3 .timeline__event__date {
-    color: #aff1b6;
-    background-color: #24b47e;
+    color: #ffe2ab;
+    background-color: #ff9900;
   }
   .timeline__event--type3:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type3:nth-child(2n+1) .timeline__event__icon:after {
-    background: #aff1b6;
+    background: #ff9900;
   }
   .timeline__event--type3 .timeline__event__icon {
-    background: #aff1b6;
-    color: #24b47e;
+    background: #ff9900;
+    color: #ffe2ab;
   }
   .timeline__event--type3 .timeline__event__icon:before, .timeline__event--type3 .timeline__event__icon:after {
-    background: #aff1b6;
+    background: #ff9900;
   }
   .timeline__event--type3 .timeline__event__title {
-    color: #24b47e;
+    color: #ff9900;
+  }
+  .timeline__event--type4:after {
+    background: #ff0000;
+  }
+  .timeline__event--type4 .timeline__event__date {
+    color: #ff8c8c;
+    background-color: #ff0000;
+  }
+  .timeline__event--type4:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type4:nth-child(2n+1) .timeline__event__icon:after {
+    background: #ff0000;
+  }
+  .timeline__event--type4 .timeline__event__icon {
+    background: #ff0000;
+    color: #ff8c8c;
+  }
+  .timeline__event--type4 .timeline__event__icon:before, .timeline__event--type4 .timeline__event__icon:after {
+    background: #ff0000;
+  }
+  .timeline__event--type4 .timeline__event__title {
+    color: #ff0000;
+  }
+  .timeline__event--type5:after {
+    background: #000000;
+  }
+  .timeline__event--type5 .timeline__event__date {
+    color: #dadada;
+    background-color: #000000;
+  }
+  .timeline__event--type5:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type5:nth-child(2n+1) .timeline__event__icon:after {
+    background: #000000;
+  }
+  .timeline__event--type5 .timeline__event__icon {
+    background: #000000;
+    color: #dadada;
+  }
+  .timeline__event--type5 .timeline__event__icon:before, .timeline__event--type5 .timeline__event__icon:after {
+    background: #000000;
+  }
+  .timeline__event--type5 .timeline__event__title {
+    color: #000000;
+  }
+  .timeline__event--type6:after {
+    background: #c400a3;
+  }
+  .timeline__event--type6 .timeline__event__date {
+    color: #c78bbd;
+    background-color: #c400a3;
+  }
+  .timeline__event--type6:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type6:nth-child(2n+1) .timeline__event__icon:after {
+    background: #c400a3;
+  }
+  .timeline__event--type6 .timeline__event__icon {
+    background: #c400a3;
+    color: #c78bbd;
+  }
+  .timeline__event--type6 .timeline__event__icon:before, .timeline__event--type6 .timeline__event__icon:after {
+    background: #c400a3;
+  }
+  .timeline__event--type6 .timeline__event__title {
+    color: #c400a3;
+  }
+  .timeline__event--type7:after {
+    background: #1600da;
+  }
+  .timeline__event--type7 .timeline__event__date {
+    color: #7c71d8;
+    background-color: #1600da;
+  }
+  .timeline__event--type7:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type7:nth-child(2n+1) .timeline__event__icon:after {
+    background: #1600da;
+  }
+  .timeline__event--type7 .timeline__event__icon {
+    background: #1600da;
+    color: #7c71d8;
+  }
+  .timeline__event--type7 .timeline__event__icon:before, .timeline__event--type7 .timeline__event__icon:after {
+    background: #1600da;
+  }
+  .timeline__event--type7 .timeline__event__title {
+    color: #1600da;
+  }
+  .timeline__event--type8:after {
+    background: #00ccff;
+  }
+  .timeline__event--type8 .timeline__event__date {
+    color: #b9f1ff;
+    background-color: #00ccff;
+  }
+  .timeline__event--type8:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type8:nth-child(2n+1) .timeline__event__icon:after {
+    background: #00ccff;
+  }
+  .timeline__event--type8 .timeline__event__icon {
+    background: #00ccff;
+    color: #b9f1ff;
+  }
+  .timeline__event--type8 .timeline__event__icon:before, .timeline__event--type8 .timeline__event__icon:after {
+    background: #00ccff;
+  }
+  .timeline__event--type8 .timeline__event__title {
+    color: #00ccff;
   }
   .timeline__event:last-child .timeline__event__icon:before {
     content: none;
