@@ -1,0 +1,60 @@
+.crowdfunding {
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.name {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.balance {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.address {
+    word-break: break-all; 
+    white-space: normal;
+    overflow-wrap: break-word;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.coin-item {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px 0;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.coin-item.zig {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: flex-start; 
+}
+
+.coin-item.zag {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: flex-end;
+}
+
+.coin-item .image img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 5px;
+}
