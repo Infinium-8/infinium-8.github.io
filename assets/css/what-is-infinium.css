@@ -1,0 +1,45 @@
+.what-is-infinium{
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.row.what-is-infinium {
+    justify-content: center;
+}
+
+.what-is-infinium h5{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.what-is-infinium p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.what-is-infinium-title{
+    display: flex;
+    justify-content: center;
+}
+
+.what-is-infinium-item{
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.image-center {
+    margin: auto;
+}
+
+.image-center img {
+    max-height: 225px;
+}
