@@ -1,16 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-      <title>Download | Infinium | Anonymous, Secure, Untraceable and Fungible</title>
+      <title>Mining | Infinium | Anonymous, Secure, Untraceable and Fungible</title>
+      <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <meta name="title" content="Download | Infinium | Anonymous, Secure, Untraceable and Fungible"/>
-      <meta name="description" content="Infinium is Digital Currency You Can Spend Anywhere. Use Infinium-8 to make secure, instant, private payments online or in-store using our secure open-source platform hosted by thousands of users around the world."/>
+      <meta name="title" content="Mining | Infinium | Anonymous, Secure, Untraceable and Fungible"/>
+      <meta name="description" content="Infinium is Digital Currency You Can Spend Anywhere. Use Infinium to make secure, instant, private payments online or in-store using our secure open-source platform hosted by thousands of users around the world."/>
       <meta name="keywords" content="infinium, community, freedom, currency, anonymous, private, untraceable, fungible, cash, liberty, banking, fintech, blockchain, cryptocurrency, mining, exchange, payments, bitcoin, world, stake, secure, instant" />
-      <meta property="og:title" content="Download | Infinium | Anonymous, Secure, Untraceable and Fungible"/>
-      <meta property="og:description" content="Infinium is Digital Currency You Can Spend Anywhere. Use Infinium-8 to make secure, instant, private payments online or in-store using our secure open-source platform hosted by thousands of users around the world."/>
+      <meta property="og:title" content="Mining | Infinium | Anonymous, Secure, Untraceable and Fungible"/>
+      <meta property="og:description" content="Infinium is Digital Currency You Can Spend Anywhere. Use Infinium to make secure, instant, private payments online or in-store using our secure open-source platform hosted by thousands of users around the world."/>
       <meta property="og:image" content="https://infinium.space/assets/img/icons/apple-touch-icon.png"/>
       <meta property="og:url" content="https://infinium.space"/>
-      <meta property="og:site_name" content="Download | Infinium | Anonymous, Secure, Untraceable and Fungible"/>
+      <meta property="og:site_name" content="Mining | Infinium | Anonymous, Secure, Untraceable and Fungible"/>
       <meta property="og:locale" content="en_US"/>
       <meta property="og:type" content="article"/>
       <link rel="shortcut icon" href="/assets/img/icons/favicon.ico" type="image/x-icon"/>
@@ -25,7 +26,7 @@
       <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon-180x180.png"/>  
       <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
       <link rel="stylesheet" href="/assets/css/main.css">
-      <link rel="stylesheet" href="/assets/css/download.css">
+      <link rel="stylesheet" href="/assets/css/mining.css">
   </head>
   <body>
 
@@ -94,11 +95,62 @@
     <!-- Menu Classic End-->
 
      
-      <section>
+    <section id="mining">
+      <div class="mining">
+        <div class="mining-introduction">
+          <h1 class="mining-title">Mining Infinium</h1>
+          <p class="mining-description">Infinium is a cryptocurrency that relies on proof-of-work and proof-of-stake mining to achieve distributed consensus. Below you'll find some information and resources on how to begin mining. The Infinium Project does not endorse any particular pool, software, or hardware, and the content below is provided for informational purposes only.</p>
+        </div>
 
+          <div class="mining-item">
+              <h3 class="mining-titles">Proof of Work</h3>
+              <p>One of Infinium's philosophies is to maintain egalitarian mining, so that everyone can have the possibility to mine. To achieve this, Infinium uses a particular algorithm ideated and developed by members of the Infinium community: ProgPowZ. This PoW algorithm is ASIC resistant, which means it's impossible to build specialized hardware to mine Infinium. Miners must use consumer-grade hardware and compete fairly.</p> 
+              <p>Infinium can be mined by both GPUs and CPUs, but the former is much more efficient.</p>
+              <h3 class="mining-titles">Solo or pool mining</h3>
+              <p>Miners can decide if they prefer to solo mine or to mine in a pool. Each method has its benefits and drawbacks, but the Infinium Project encourages individuals to solo mine using the Infinium software (CLI), as this type of independent mining is the most effective way to increase the robustness of the Infinium Network.</p>
+              <p>Pro and cons of solo and pool mining:</p>
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                  <h4 class="mining-titles">Solo</h4>
+                  <p class="pro">Makes the network more secure than if mining in a pool.</p>
+                  <p class="pro">You can mine using your Infinium wallet. No need for additional software.</p>
+                  <p class="cons">Depending on your hashrate, it might take months before you find a block. This is often referred to as a 'lottery'</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                  <h4 class="mining-titles">Pool</h4>
+                  <p class="pro">Frequent payouts. You will receive INF according to how much you are participating in the pool of your choice.</p>
+                  <p class="cons">You have to pay a fee to the pool operator.</p>
+                  <p class="cons">You can only use third party software to pool mine, which might take a small percentage of your shares.</p>
+                  <p class="cons">Too many people mining on a single pool might lead on the pool having >50% of the total hashrate, which is dangerous.</p>
+                </div>
+              </div>
+              <p>If you need help choosing a pool or you just want more information about them, use:</p>
+              <p class="more-information-pool"><a href="https://miningpoolstats.stream/infinium" target="_blank">MiningPoolStats</a></p>
+          </div>  
           
-          
-      </section>
+          <div class="mining-item">
+              <h3 class="mining-titles">Hardware</h3>
+              <p>Infinium can be mined on both GPUs and CPUs, but the latter is much less efficient than the former.</p>
+              <h3 class="mining-titles">Software</h3>
+              <p>There are several options when it comes to mining software. As already said, to solo mine, the CLI wallet can be used (CPU only). If you want to mine to a pool or mine with a GPU, you'll need dedicated software. Miners supporting Infinium:</p>
+              <div class="list-miners">
+                <li><a href="https://github.com/doktor83/SRBMiner-Multi/releases" target="_blank">SRBMiner-Multi</a></li>
+                <li><a href="https://github.com/andru-kun/wildrig-multi/releases" target="_blank">WildRig</a></li>
+                <li><a href="https://github.com/trexminer/T-Rex/releases" target="_blank">TRex</a></li>
+                <li><a href="https://github.com/miniZ-miner/miniZ/releases" target="_blank">MiniZ</a></li>
+                <li><a href="https://github.com/TrailingStop/TT-Miner-release/releases" target="_blank">TT-Miner</a></li>
+              </div>
+              <p>Note that some miners may have developer fees.</p>
+          </div>
+
+          <div class="mining-item">    
+              <h3 class="mining-titles">Proof of Stake</h3>
+              <p>Proof of stake mining or staking is typically implemented in such way that a random coin owner obtains the right to sign a new block.</p>
+              <p>For more information you can visit our documentation <a href="https://docs.infinium.space/docs/stake/proof-of-stake-mining" target="_blank">here</a>.</p>
+          </div>    
+
+      </div>   
+    </section>
     
     
     <!--Footer Init-->  
