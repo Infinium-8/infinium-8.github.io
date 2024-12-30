@@ -1,0 +1,86 @@
+.accepting{
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.accepting-introduction {
+    text-align: center;
+}
+
+.accepting-main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 2px solid #21082a;
+}
+
+.accepting-main-menu a {
+    height: 4.7rem;
+    align-items: center;
+}
+
+.accepting-main-item{
+    display: flex;
+    background: #410256;
+    color: #FFFFFF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.accepting-main-item:hover{
+    display: flex;
+    background: #563202;
+    color: #FFFFFF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.accepting-item{
+    background: linear-gradient(360deg, rgba(2,0,36,1) 40%, rgba(118,9,121,1) 100%);
+    border: 2px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.accepting-subtitles {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.accepting p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.accepting a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
