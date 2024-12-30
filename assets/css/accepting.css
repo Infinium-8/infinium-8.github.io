@@ -84,3 +84,9 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.accepting-item img{
+    max-width: 100%;
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+}
