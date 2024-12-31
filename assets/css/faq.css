@@ -50,3 +50,22 @@ details {
     text-decoration: none;
     color: #00ce4f;
 }
+
+@media (max-width: 991px) {
+    .frequently-asked-questions{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .frequently-asked-questions{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 0.8rem;
+        padding-right: 1rem;
+    }
+}

@@ -107,3 +107,35 @@ a.btn-fixed:hover {
 a.btn-fixed:focus{
     color: #FFFFFF;
 }
+
+@media (max-width: 991px) {
+    .contributing{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .contributing-item{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contributing{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 0.8rem;
+        padding-right: 1rem;
+    }
+
+    .contributing-item{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 0.8rem;
+        padding-right: 1rem;
+    }
+}

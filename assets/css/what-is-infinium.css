@@ -34,6 +34,8 @@
     font-weight: bold;
     align-items: flex-start;
     justify-content: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .image-center {
