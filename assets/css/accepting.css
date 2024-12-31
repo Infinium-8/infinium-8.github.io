@@ -64,8 +64,8 @@
     padding-bottom: 2rem;
     padding-right: 2rem;
     padding-left: 2rem;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 0%;
+    margin-right: 0%;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
@@ -89,4 +89,36 @@
     max-width: 100%;
     padding-top: 2rem ;
     padding-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+    .accepting{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .accepting-item{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .accepting{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 0.8rem;
+        padding-right: 1rem;
+    }
+
+    .accepting-item{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 0.8rem;
+        padding-right: 1rem;
+    }
 }
