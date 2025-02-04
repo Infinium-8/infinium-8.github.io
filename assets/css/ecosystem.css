@@ -1,0 +1,101 @@
+#ecosystem{
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.ecosystem-title{
+    text-align: center;
+}
+
+.ecosystem-container { 
+    border-color: #2a0138;
+    border-style: solid;
+    border-width: 5px;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    background: #623770;
+    margin: 3rem;
+}
+
+.ecosystem-container-image {
+    text-align: center;
+}
+
+.ecosystem-container-image img {
+    width: 100%;
+    border-top-left-radius: 4.5rem;
+    border-top-right-radius: 4.5rem;
+}
+
+.ecosystem-container-image::after {
+    content: " ";
+    border-top: 3px solid #410256;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.ecosystem-container-title {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.ecosystem-container-title .row {
+    align-items: center;
+}
+
+.ecosystem-container-title::after {
+    content: " ";
+    border-top: 3px solid #410256;
+    display: block;
+    margin-top: 1rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+.ecosystem-container a { 
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 575px) {
+    #ecosystem {
+        color: #FFFFFF;
+        background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+        position: relative;
+        border: 1px solid #323232;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .ecosystem-container {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 995px) and (max-width: 1305px) {
+    #ecosystem {
+        color: #FFFFFF;
+        background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+        position: relative;
+        border: 1px solid #323232;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .ecosystem-container {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+}
