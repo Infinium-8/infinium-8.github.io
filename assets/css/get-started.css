@@ -41,6 +41,11 @@
 
 .get-started-container-title {
     padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.get-started-container-title .row {
+    align-items: center;
 }
 
 .get-started-container-title::after {
@@ -49,9 +54,48 @@
     display: block;
     margin-top: 1rem;
     margin-left: -2rem;
+    margin-right: -2rem;
 }
 
 .get-started-container a { 
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 575px) {
+    #get-started {
+        color: #FFFFFF;
+        background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+        position: relative;
+        border: 1px solid #323232;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .get-started-container {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 995px) and (max-width: 1305px) {
+    #get-started {
+        color: #FFFFFF;
+        background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+        position: relative;
+        border: 1px solid #323232;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .get-started-container {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
 }
