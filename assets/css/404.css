@@ -1,0 +1,65 @@
+#error-404{
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.error-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-404-error {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30vw;
+    opacity: 0.1;
+    font-weight: 800;
+    z-index: 0;
+}
+
+.error-404-content{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 800;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-404-logo{
+   max-width: 40vw;
+}
+
+.go-to-homepage{
+    text-decoration: none;
+    color: azure;
+    border: 1px solid #6140f8;
+    padding: 0.5rem;
+    border-radius: 3.125rem;
+}
+
+.go-to-homepage:focus{
+    text-decoration: none;
+    color: azure;
+    background: #410256;
+    border: 1px solid #6140f8;
+    padding: 0.5rem;
+    border-radius: 3.125rem;
+}
+
+.go-to-homepage:hover{
+    text-decoration: none;
+    color: azure;
+    background: #410256;
+    border: 1px solid #6140f8;
+    padding: 0.5rem;
+    border-radius: 3.125rem;
+}
