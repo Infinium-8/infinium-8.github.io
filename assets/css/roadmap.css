@@ -36,7 +36,7 @@
     content: "";
     width: 2px;
     height: 100%;
-    background: #04ff19;
+    background: #50fa5e;
     position: absolute;
     top: 0%;
     left: 50%;
@@ -50,7 +50,7 @@
     content: "";
     width: 100%;
     height: 2px;
-    background: #04ff19;
+    background: #50fa5e;
     position: absolute;
     right: 0;
     z-index: -1;
@@ -64,8 +64,8 @@
     font-size: 1.2rem;
     line-height: 1.4;
     text-transform: uppercase;
-    font-weight: 600;
-    color: #34f346;
+    font-weight: 800;
+    color: #50fa5e;
     letter-spacing: 1.5px;
   }
   .timeline__event__content {
@@ -79,7 +79,7 @@
     color: #d5ffd9;
     font-size: 1.5rem;
     font-weight: 600;
-    background: #04ff19;
+    background: #75fc80;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,12 +95,12 @@
     padding: 20px;
     align-self: center;
     margin: 0 20px;
-    background: #04ff19;
+    background: #50fa5e;
     border-radius: 100%;
-    width: 40px;
+    width: 80px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-    padding: 40px;
-    height: 40px;
+    padding: 80px;
+    height: 80px;
     position: relative;
   }
   .timeline__event__icon i {
@@ -110,7 +110,7 @@
     content: "";
     width: 2px;
     height: 100%;
-    background: #04ff19;
+    background: #57f164;
     position: absolute;
     top: 0%;
     z-index: -1;
@@ -123,7 +123,7 @@
     content: "";
     width: 100%;
     height: 2px;
-    background: #04ff19;
+    background: #50fa5e;
     position: absolute;
     left: 0%;
     z-index: -1;
@@ -136,17 +136,17 @@
     flex-basis: 100%;
   }
   .timeline__event--type2:after {
-    background: #b9b059;
+    background: #b6ae69;
   }
   .timeline__event--type2 .timeline__event__date {
     color: #fff597;
-    background: #b9b059;
+    background: #cfcba4;
   }
   .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:after {
-    background: #b9b059;
+    background: #b6ae69;
   }
   .timeline__event--type2 .timeline__event__icon {
-    background: #b9b059;
+    background: #bdb574;
     color: #b9b059;
   }
   .timeline__event--type2 .timeline__event__icon:before, .timeline__event--type2 .timeline__event__icon:after {
@@ -160,7 +160,7 @@
   }
   .timeline__event--type3 .timeline__event__date {
     color: #ffe2ab;
-    background-color: #ff9900;
+    background-color: #f5ae45;
   }
   .timeline__event--type3:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type3:nth-child(2n+1) .timeline__event__icon:after {
     background: #ff9900;
@@ -176,41 +176,41 @@
     color: #ff9900;
   }
   .timeline__event--type4:after {
-    background: #ff0000;
+    background: #fc8585;
   }
   .timeline__event--type4 .timeline__event__date {
-    color: #ff8c8c;
-    background-color: #ff0000;
+    color: #fdeaea;
+    background-color: #fca0a0;
   }
   .timeline__event--type4:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type4:nth-child(2n+1) .timeline__event__icon:after {
-    background: #ff0000;
+    background: #f86060;
   }
   .timeline__event--type4 .timeline__event__icon {
-    background: #ff0000;
+    background: #f86060;
     color: #ff8c8c;
   }
   .timeline__event--type4 .timeline__event__icon:before, .timeline__event--type4 .timeline__event__icon:after {
-    background: #ff0000;
+    background: #f86060;
   }
   .timeline__event--type4 .timeline__event__title {
     color: #ff0000;
   }
   .timeline__event--type5:after {
-    background: #000000;
+    background: #353535;
   }
   .timeline__event--type5 .timeline__event__date {
-    color: #dadada;
-    background-color: #000000;
+    color: #fcfbfb;
+    background-color: #353535;
   }
   .timeline__event--type5:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type5:nth-child(2n+1) .timeline__event__icon:after {
-    background: #000000;
+    background: #353535;
   }
   .timeline__event--type5 .timeline__event__icon {
     background: #000000;
-    color: #dadada;
+    color: #fcfbfb;
   }
   .timeline__event--type5 .timeline__event__icon:before, .timeline__event--type5 .timeline__event__icon:after {
-    background: #000000;
+    background: #353535;
   }
   .timeline__event--type5 .timeline__event__title {
     color: #000000;
@@ -279,10 +279,11 @@
     content: none;
   }
   
-  @media (max-width: 786px) {
+  @media (max-width: 1034px) {
     .timeline__event {
       flex-direction: column;
       align-self: center;
+      width: 85vw;
     }
     .timeline__event__content {
       width: 100%;
@@ -313,6 +314,24 @@
       margin: 0;
     }
   }
+
+  @media (min-width: 358px) and (max-width: 420px) {
+    .roadmap-introduction {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  @media (max-width: 328px) {
+    .timeline__event__date {
+      white-space: normal;
+    }
+    html, body {
+      overflow-x: hidden;
+      width: 100%;
+    }
+  }
+
   @-webkit-keyframes fillLeft {
     100% {
       right: 100%;
