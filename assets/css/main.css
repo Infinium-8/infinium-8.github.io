@@ -190,6 +190,18 @@ span.underlined::after {
     background: radial-gradient(199.87% 141.42% at 0% 0%, #16d1d6 0%, #274cff 100%), #d9d9d9;
 }
 
+@media (min-width: 350px) and (max-width: 415px) {
+    .menu {
+        transform: scale(0.6);
+    }
+} 
+
+@media (min-width: 416px) and (max-width: 590px) {
+    .menu {
+        transform: scale(0.8);
+    }
+} 
+
 @media (max-width: 590px) {
     html{
         margin-right: -10px;
