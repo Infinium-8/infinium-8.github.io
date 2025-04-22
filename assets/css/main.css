@@ -22,6 +22,18 @@ body{
     padding-right: 8%;
 }
 
+.paragraph-main-info {
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.main-info-text {
+    min-height: 100%;
+    align-items: center;
+    align-content: center;
+}
+
 .btn-main-info{
     display: flex;
     justify-content: space-between;
