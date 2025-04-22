@@ -1,0 +1,91 @@
+/* Global CSS for the website */
+body{
+    background: radial-gradient(ellipse at bottom, #1b2735 10%, #090a0f 90%);
+}
+
+/* Menu Classic */
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background: radial-gradient(ellipse at bottom, #1b2735 5%, #090a0f 95%);
+}
+
+/* Footer */
+.footer{
+    background: black;
+    color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+.footer-logo{
+    max-width: 80%;
+}
+
+.footer-description{
+    color: #89adad;
+}
+
+.footer-item{
+    color: #89adad;
+    display: table;
+    padding: 0.5rem;
+}
+
+/* Copyright */
+.copyright{
+    color: #FFFFFF;
+    font-weight: bold;
+    border-top: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+/* Custom */
+[id]{
+    scroll-margin-top: 4em;
+}
+
+.row-reverse-flex{
+    flex-direction: row-reverse;
+}
+
+.image-center {
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    html{
+        margin-right: -10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .collapse.navbar-collapse{
+        justify-content: flex-end;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-item{
+        font-size: 1.15rem;
+        font-weight: bolder;
+        text-align: center;    
+    }   
+}
+
+@media (min-width: 1590px) {
+    .nav-item{
+        font-size: 1.25rem;
+        font-weight: bolder;
+        text-align: center;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+}

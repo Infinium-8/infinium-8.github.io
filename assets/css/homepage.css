@@ -1,0 +1,139 @@
+html {
+    background: radial-gradient(ellipse at bottom, #1b2735 10%, #090a0f 90%);
+    overflow-x: hidden;
+}
+
+body {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#infinium-logo-text {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    text-shadow: 0px 0px 25px rgba(255, 255, 255, 0.6);
+}
+
+/* Main Information */
+.main-info{
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.main-info-image-full{
+    max-width: 100%;
+    border-radius: 10%;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%) !important;
+    padding: 5px;
+}
+
+.paragraph-main-info {
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.main-info-text {
+    min-height: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+/* Get Started Lite */
+.get-started-lite{
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.get-started-lite-title {
+    display: flex;
+    justify-content: center;
+}
+
+.get-started-lite .row{
+    padding-bottom: 2rem;
+}
+
+.get-started-lite-item {
+    align-content: center;
+}
+
+.get-started-lite img {
+    max-width: 100%;
+    max-height: 15rem;
+}
+
+/* Get Info Blockchain */
+
+.infochain{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.15rem;
+    background: black;
+    position: relative;
+    z-index: 5;
+}
+
+.container-infochain{
+    background: repeating-linear-gradient(45deg, #151e29, #00000000 12rem);
+}
+
+/* Responsive CSS */
+
+@media (min-width: 350px) and (max-width: 415px) {
+    .menu {
+        transform: scale(0.6);
+    }
+} 
+
+@media (min-width: 416px) and (max-width: 590px) {
+    .menu {
+        transform: scale(0.8);
+    }
+} 
+
+@media (max-width: 590px) {
+    .main-info{
+        margin-left: 0%;
+        margin-right: 0%;  
+    }
+    .main-info .row {
+        flex-direction: column-reverse;
+    }
+    .get-started-lite{
+        margin-left: 0%;
+        margin-right: 0%;  
+    }   
+}
+
+@media (max-width: 991px) {
+    #infinium-logo-text{
+        font-size: 55px !important; 
+    }
+    .main-info{
+        margin-left: 0%;
+        margin-right: 0%;  
+    }
+    .main-info .row {
+        flex-direction: column-reverse;
+    }
+    .get-started-lite{
+        margin-left: 0%;
+        margin-right: 0%;  
+    }   
+}
