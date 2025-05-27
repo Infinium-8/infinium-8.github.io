@@ -1,0 +1,18 @@
+.global-post {
+    color: #FFFFFF;
+    background: repeating-linear-gradient(0deg, #000000, #410256 100%);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#container-post {
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .04) 100%);
+    border: 1px solid #000000;
+}
